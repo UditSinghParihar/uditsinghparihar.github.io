@@ -18,12 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Computer Vision, DL and SLAM Research Engineer"
+  company = "Qualcomm"
+  company_url = "https://www.qualcomm.com/research/extended-reality"
+  location = "Bangalore, India"
+  date_start = "2023-07-01"
+  date_end = ""
+  description = """
+  * Designed architecture for multi-camera support in 6DoF Visual-Inertial SLAM; integrated multi-camera constraints into tracker and pose graph optimizer (shipped in Google AndroidXR & Samsung Moohan).
+  * Contributed to 6 accepted patents in Deep Learning & SLAM, including hybrid classical-DL feature tracking, VLM semantic priors for SLAM perception, and illumination-robust matching.
+  * Optimized Visual-Inertial Odometry by removing redundant IMU intrinsic calibration from the state vector and deriving analytical closed-form warping matrices for camera distortion, reducing power hotspots.
+  * Built ground-truth infrastructure for 6DoF accuracy evaluation involving mechanically constrained setups and 360-spanning ChArUco rigs.
+  """
+
+[[experience]]
   title = "Computer Vision and SLAM Research Engineer"
   company = "OLA Electric"
   company_url = "https://olaelectric.com/"
   location = "Bangalore"
   date_start = "2021-07-01"
-  date_end = "2023-01-01"
+  date_end = "2023-07-01"
   description = """
   * Developed an end to end autonomous driving agent using cameras, GPS and IMU sensors. Ported the agent from Carla simulator to NuScenes Dataset. 
   * Converted the pytorch model to TensorRT and developed a ROS wrapper to run on real Mahindra E2O car achieving final control prediction at 25 HZ, in a zero shot paradigm.
